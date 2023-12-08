@@ -1,0 +1,105 @@
+/* Define a global style for the app */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Define a style for the app container */
+.crud-app {
+  width: 80%;
+  max-width: 800px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+/* Define a style for the app title */
+.crud-app h1 {
+  text-align: center;
+  color: #333;
+}
+
+/* Define a style for the form */
+.crud-app form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Define a style for the form labels */
+.crud-app form label {
+  display: block;
+  width: 40%;
+  margin: 10px 0;
+}
+
+/* Define a style for the form inputs */
+.crud-app form input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+/* Define a style for the form button */
+.crud-app form button {
+  width: 15%;
+  padding: 10px;
+  border: none;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+}
+
+/* Define a style for the loading and error messages */
+.crud-app p {
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Define a style for the error message */
+.crud-app p.error {
+  color: red;
+}
+
+/* Define a style for the table */
+.crud-app table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Define a style for the table cells */
+.crud-app table td,
+.crud-app table th {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+/* Define a style for the table header */
+.crud-app table th {
+  background-color: #333;
+  color: white;
+}
+
+/* Define a style for the table buttons */
+.crud-app table button {
+  padding: 5px;
+  border: none;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+}
+
+/* Define a style for the edit button */
+.crud-app table button.edit {
+  background-color: #00f;
+}
+
+/* Define a style for the delete button */
+.crud-app table button.delete {
+  background-color: #f00;
+}
