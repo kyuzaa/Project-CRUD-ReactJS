@@ -8,7 +8,7 @@ Project ini dibuat untuk mata praktikum Pemrograman Web
 ```bash
 cd backend
 npm install
-npm run index.js
+node index.js
 ```
 ## Running Web Server
 
